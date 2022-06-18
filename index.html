@@ -5,10 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        
+        <div class="intro-text">
+            <h1>Learn to code by</h1>
+            <h1 class="second-h1">watching others</h1>
+            <p>See how experienced developers solve problems in real time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+
+        <div class="form">
+            <button class="btn first-btn">
+                <span class="weight">Try it free 7 days</span>
+                <span class="extra">then $20/mo. thereafter</span>
+            </button>
+
+            <form action="">
+                <div>
+                    <label for="name"></label>
+                    <input id="name" type="text" name="name" required placeholder="First Name">
+                </div>
+                
+                <div>
+                    <label for="lname"></label>
+                    <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                </div>
+
+                <div>
+                    <label for="e-mail"></label>
+                    <input type="email" name="email" id="e-mail" required placeholder="Email Address">
+                </div>
+
+                <div>
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                </div>
+
+                <button class="btn second-btn"> CLAIM YOUR FREE TRIAL</button>
+            </form>
+
+            <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </div>
+
+
     </div>
 </body>
 </html>

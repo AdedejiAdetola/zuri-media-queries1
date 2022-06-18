@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+}
+.container{
+    height: 100vh;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.intro-text{
+    width: 25%;
+    color: white;
+}
+
+.second-h1{
+    margin-bottom: 30px;
+}
+.intro-text h1{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+}
+.intro-text p{
+    font-size: 12px;
+    color: #efeeee;
+}
+
+
+
+.first-btn span{
+    font-size: 12px;
+    color: #efeeee;
+}
+
+.weight{
+    font-weight: 900;
+}
+
+
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 3px #666666;
+    -moz-box-shadow: 0px 4px 3px #666666;
+    box-shadow: 0px 4px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+    border: none;
+  }
+  
+.btn:hover {
+    text-decoration: none;
+}
+
+
+.first-btn{
+    background: #6055a5;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.first-btn:hover{
+    background: #6055a5;
+}
+
+
+
+form{
+    background: #ffffff;
+    padding: 50px;  
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 3px #666666;
+    -moz-box-shadow: 0px 4px 3px #666666;
+    box-shadow: 0px 4px 3px #666666;
+    margin-bottom: 10px;
+}
+form div{
+    margin-bottom: 20px;
+}
+.second-btn{
+    font-size: 12px;
+    width: 105%;
+    background: #38cc8c;
+}
+
+.second-btn:hover{
+    cursor: pointer;
+    background: #92edc6;
+}
+
+form input{
+    padding: 10px;
+    width: 100%;
+}
+
+.form p {
+    font-size: 12px;
+    color: #efeeee;
+    text-align: center;
+}
+
+.form p span{
+    color: red;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .intro-text{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .form{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 380px) {
+
+    .intro-text{
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+    .intro-text p{
+        font-size: 15px;
+    }
+
+    .first-btn{
+        padding: 0 90px;
+    }
+    .first-btn span{
+        font-size: 15px;
+        color: #efeeee;
+    }
+
+    .form p{
+        font-size: 15px;
+    }
+}
